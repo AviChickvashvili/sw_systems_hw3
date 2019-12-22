@@ -30,7 +30,7 @@ int main()
     printf("after insertion sort\n");
     for (int i = 0; i < LENGTH2; i++)
     {
-        if(i=LENGTH2-1){
+        if(i==LENGTH2-1){
             printf("%d", avi_arr2[i]);
         }else{
         printf("%d , ", avi_arr2[i]);
