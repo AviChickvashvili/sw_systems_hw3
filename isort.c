@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
-#include "arrays.h"
+#include "isort.h"
 
 int avi_arr[LENGTH];
 int avi_arr2[LENGTH2];
