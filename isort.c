@@ -2,7 +2,6 @@
 #include <stdbool.h>
 #include "isort.h"
 
-int avi_arr[LENGTH];
 int avi_arr2[LENGTH2];
 
 void shift_element(int *arr, int i)
@@ -10,7 +9,7 @@ void shift_element(int *arr, int i)
 
     int index = 1;
     bool ans = true;
-    int *p = (int *)(&avi_arr + 1) - 1;
+    int *p = (int *)(&avi_arr2 + 1) - 1;
     int temp;
     int temp2;
     // printf("\n*p =%p   %d\n", &p,*p);
